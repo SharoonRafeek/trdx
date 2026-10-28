@@ -1,0 +1,14 @@
+{
+  "name": "Traversion Dynamics",
+  "short_name": "Traversion",
+  "description": "AI-driven border defense and counter-UAV systems for land, air and water.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#07080C",
+  "theme_color": "#07080C",
+  "icons": [
+    { "src": "images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "images/logo-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

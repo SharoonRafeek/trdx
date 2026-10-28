@@ -1,0 +1,23 @@
+{
+  "name": "traversion-dynamics-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Traversion Dynamics website: static pages plus a contact form that emails the team (Vercel function or Node server).",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "check": "node --check server/index.js && node --check server/config.js && node --check lib/contact.js && node --check api/contact.js && node --check scripts/build.js",
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "compression": "^1.8.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "nodemailer": "^10.2.1"
+  }
+}
